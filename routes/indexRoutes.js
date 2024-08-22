@@ -18,18 +18,49 @@ router.get('/', (req, res) => {
                     /api/cart
                 </a>
             </li>
+
             <li style="padding: 10px 0;">
-                <a href="/api/orders" style="text-decoration: none;">
+                
+                    <span style="color: white; background-color: blue; padding: 3px 7px; border-radius: 3px;">POST</span>
+                    /api/cart/
+                
+            </li>
+
+            <li style="padding: 10px 0;">
+                
+                    <span style="color: white; background-color: orange; padding: 3px 7px; border-radius: 3px;">PUT</span>
+                    /api/cart/:id
+                
+            </li>
+
+            <li style="padding: 10px 0;">
+                
+                    <span style="color: white; background-color: grey; padding: 3px 7px; border-radius: 3px;">DELETE</span>
+                    /api/cart/:id
+                
+            </li>
+
+            <li style="padding: 10px 0;">
+                
+                    <span style="color: white; background-color: grey; padding: 3px 7px; border-radius: 3px;">DELETE</span>
+                    /api/cart/
+                
+            </li>
+
+            <li style="padding: 10px 0;">
+                
                     <span style="color: white; background-color: blue; padding: 3px 7px; border-radius: 3px;">POST</span>
                     /api/orders
-                </a>
+                
             </li>
             <li style="padding: 10px 0;">
-                <a href="/api/create-payment-intent" style="text-decoration: none;">
+                
                     <span style="color: white; background-color: blue; padding: 3px 7px; border-radius: 3px;">POST</span>
                     /api/create-payment-intent
-                </a>
+                
             </li>
+
+            
         </ul>
     `);
 });
